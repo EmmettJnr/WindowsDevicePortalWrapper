@@ -68,7 +68,7 @@
   <ItemGroup>
     <None Include="DevicePortalWrapperNet.snk" />
   </ItemGroup>
-  <Import Project="WindowsDevicePortalWrapper.Shared.projitems" Label="Shared" />
+  <Import Project="..\Wrapper_Shared\WindowsDevicePortalWrapper.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
